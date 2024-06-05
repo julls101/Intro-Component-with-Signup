@@ -14,7 +14,7 @@ const emailWarning = document.querySelector("#email-warning");
 const revealPassword = document.querySelector("#reveal-password");
 
 
-console.log(firstName);
+//console.log(firstName);
 
 // console.log(firstName, lastName, email, password);
 
@@ -67,7 +67,7 @@ form.addEventListener('submit', (e) => {
   if (passwordVal === '') {
     password.classList.add('error');
     errorTextPass.innerHTML = "Password cannot be empty";
-    revealPassword.src = "./images/exclamation-circle-solid.svg";
+    revealPassword.src = "./images/icon-error.svg";
 
   } else {
     password.classList.remove('error');
